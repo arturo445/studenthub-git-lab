@@ -3,23 +3,24 @@
 Responder individualmente al finalizar.
 
 ### 1. ¿Cuál es la diferencia entre `git add` y `git commit`?
-
---- 
+la diferencia radica en que el git add añade el o los archivos a un estado intermedio llamado staged y el commit lo que hace es pasar del staging area al repositorio local
+---
 
 ### 2. ¿Cuál es la diferencia entre `git push` y `git pull`?
-
---- 
+la diferencia es que git pull lo que hace es traer todas las actualizaciones del repositorio remoto y unirlas con el repositorio local (fetch+merge) en cambio el push lo que hace es subir los cambios del repositorio local al repositorio remoto
+---
 
 ### 3. ¿Cuál es la diferencia entre un repositorio local y uno remoto?
-
+en la logica ambos cumplen la funcion de ser un historial de cambio y la diferencia radica en que uno se maneja de manera local y el otro en la nube
 ---
 
 ### 4. ¿Qué problema resuelve una rama?
+el principal error que solucionan es que una nueva implementacion vaya a romper todo el proyecto y se utilizan mayoritariamente para hacer pruebas a base de la rama central o principal (main/master), ademas permite que varias personas se encarguen de distintas tareas en paralelo 
 
 ---
 
 ### 5. ¿Qué diferencia existe entre `git merge` y `git rebase`?
-
+la diferencia radica en que el merge une las dos ramas pero mantiene la rama en cambio el rebase une las dos ramas y no genera ningun commit provocando un flujo mas limpio y ordenado 
 ---
 
 ### 6. ¿Por qué ocurre un conflicto? 
